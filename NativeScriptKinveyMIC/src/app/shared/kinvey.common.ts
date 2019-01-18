@@ -7,4 +7,9 @@ import { Kinvey } from "kinvey-nativescript-sdk";
 * You can build and run this template without creating your own Kinvey project.
 *************************************************************/
 
-Kinvey.init();
+// TODO: Please add values.
+Kinvey.init({
+    "appKey": "xxx",
+    "appSecret": "xxx",
+    "instanceId": "xxx"
+});
