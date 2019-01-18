@@ -20,7 +20,9 @@ export class HomeComponent implements OnInit {
     ngOnInit(): void {
         Kinvey.User.me()
             .then((user: User) => {
-                this.loggedUser = user.data['_socialIdentity'].kinveyAuth.id
+                this.loggedUser = user.data['_socialIdentity'].kinveyAuth.email ||
+                    user.data['_socialIdentity'].kinveyAuth.name ||
+                    user.data['_socialIdentity'].kinveyAuth.id
             });
     }
 

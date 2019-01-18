@@ -6,8 +6,8 @@
   "pluginsData": {
     "kinvey-nativescript-sdk": {
       "config": {
-        "appKey": "",
-        "appSecret": "",
+        "appKey": "xxx",
+        "appSecret": "xxx",
         "redirectUri": "myscheme://"
       }
     }
