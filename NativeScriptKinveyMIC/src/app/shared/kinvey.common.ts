@@ -8,6 +8,8 @@ import { Kinvey } from "kinvey-nativescript-sdk";
 *************************************************************/
 
 // TODO: Please add values.
+
+// If you do not have own Kinvey Instance, please remove the last attribute.
 Kinvey.init({
     "appKey": "xxx",
     "appSecret": "xxx",
